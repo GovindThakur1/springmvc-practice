@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,9 +10,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
           integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <link href="<c:url value="/resources/css/style.css"/> ">
+    <script src="<c:url value="/resources/js/script.js"/>"></script>
+
     <title>Home</title>
 </head>
 <body>
+
+<img src="<c:url value="/resources/images/turtle.png"/>" alt="my img" height="200px">
+
+
 <div class="container">
     <div class="card mx-auto mt-5 bg-secondary" style="width: 50%">
         <div class="card-body py-5">
